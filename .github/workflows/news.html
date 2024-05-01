@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    
+    <title>News | SMart_.</title>
+</head>
+<body>
+    <!--header mulai-->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.jpg" alt="Logo" width="120" height="32" class="me-2">
+                SMart_.
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./produk.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item">
+                        <a class="social-icon" href="https://web.facebook.com/profile.php?id=100089342480000/">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="https://youtu.be/Qb1BdLlx8aw?si=gcA_M_CDjCC-3zPo">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="https://www.instagram.com/yonexoriginal.indonesia/">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+      <!--header selesai-->
+
+      <!-- text awal mulai -->
+      <div class="px-4 py-5 my-5 text-center" data-aos="fade-up" data-aos-delay="200">
+        <h1 class="display-5 fw-bold text-body-emphasis">Latest News</h1>
+      </div>
+      <!-- text awal selesai -->
+
+      <!--carousel mulai-->  
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-aos="fade-up" data-aos-delay="300">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="./assets/img/news1.png" class="d-block w-100" alt="Slide 1">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>YONEX All England 2024: Team Yonex Collecting titles and trophies</h1>
+                        <p><a class="btn btn-lg btn-primary" href="https://www.yonex.com/news/badminton/yonex-all-england-2024-team-yonex-collecting-titles-and-trophies/">Read Full</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="./assets/img/news2.png" class="d-block w-100" alt="Slide 2">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Yonex announces “Environmental Vision 2050”: To carry sport into the future</h1>
+                        <p><a class="btn btn-lg btn-primary" href="https://www.yonex.com/news/general/yonex-announces-environmental-vision-2050-to-carry-sport-into-the-future/">Read Full</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/news3.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Team Yonex Secures Wins in All Five Categories at YONEX French Open 2024</h1>
+                        <p><a class="btn btn-lg btn-primary" href="https://www.yonex.com/news/badminton/team-yonex-secures-wins-in-all-five-categories-at-yonex-french-open-2024/">Read Full</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">        
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--carousel selesai-->
+
+<!-- konten mulai -->
+    <div data-aos="fade-up" data-aos-delay="200">
+
+      <!-- konten1 mulai -->
+      <section id="about" class="section-padding section-connector">
+        <div class="container">
+          <div class="row" style="margin-top: 100px;">
+            <div class="col-12">
+              <div class="section-title text-center" data-aos="fade-up" data-aos-delay="100">
+                <h1>what's the hot news?</h1>
+                <p>some of the latest achievements obtained in various competition events</p>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+
+    <!--konten slide mulai-->
+    <div class="container mt-5" data-aos="fade-up" data-aos-delay="100">
+        
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="margin-right: -13px; margin-left: -13px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                      <img src="./assets/img/news4.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">New traditions at the historic All England Open</h5>
+                        <p class="card-text">March 11, 2024</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                      <img src="./assets/img/news5.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">All smiles for Paolini after her first WTA 1000 title in Dubai</h5>
+                        <p class="card-text">February 25, 2024</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                      <img src="./assets/img/news6.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Upgrade Your Comfort and Fit Experience with the New</h5>
+                        <p class="card-text">March 21, 2024</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                      <img src="./assets/img/news7.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Forged Irons that make balls fly: The new “EZONE CB901”</h5>
+                        <p class="card-text">January 17, 2024</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                      <img src="./assets/img/news8.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Yonex Opens First Overseas Showroom, The “Yonex</h5>
+                        <p class="card-text">August 7, 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                      <img src="./assets/img/news9.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Yonex Announces Expansion Plans in Nagaoka to Meet</h5>
+                        <p class="card-text">April 5, 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!--konten slide selesai-->
+
+    <!-- konten2 mulai -->
+    <div class="row row-cols-2 row-cols-sm-4 g-3" style="margin-top: 100px;" data-aos="fade-up" data-aos-delay="200">
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news10.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">Strong Comebacks at Yonex Sunrise India Open 2024</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                       <small class="text-muted">January 21, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news11.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">Strong start for Team Yonex at the 2024 Malaysia Open</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                       <small class="text-muted">January 15, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news12.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">EXBOLT 68: Hard hitting smashes</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                       <small class="text-muted">January 5, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news13.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">ASTROX 88 S/D: A new dawn for doubles</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">February 22, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- konten2 selesai -->
+
+    <!-- konten3 mulai -->
+    <div class="row row-cols-2 row-cols-sm-4 g-3" style="margin-top: 50px;" data-aos="fade-up" data-aos-delay="250">
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news14.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">Australian Open 2024: Diverse talents of Team Yonex shine in</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                       <small class="text-muted">January 26, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news15.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">Australian Open 2024: Team Yonex members survive tight</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                       <small class="text-muted">January 19, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news16.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">Australian Open 2024: Yonex stars light up </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                       <small class="text-muted">January 17, 2024
+
+                       </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news17.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">Fresh, bold design and a fresh feeling with the 2024</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">January 11, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- konten3 selesai -->
+
+    <!-- konten4 mulai -->
+    <div class="row row-cols-2 row-cols-sm-4 g-3" style="margin-top: 50px;" data-aos="fade-up" data-aos-delay="300">
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news18.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">Hyo Joo Kim achieves an LPGA victory</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                       <small class="text-muted">October 9, 2023</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news19.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">EZONE GT Irons Earn Golf Digest HOT LIST’s Silver Medal</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                       <small class="text-muted">March 14, 2023</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news20.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">Se Ri Pak praises Yonex golf club performance </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                       <small class="text-muted">February 21, 2023</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" style="object-fit: cover; width: 100%; height: 100%;" src="./assets/img/news21.png" role="img" aria-label="Placeholder: Thumbnail" alt="Thumbnail">
+                <div class="card-body">
+                    <p class="card-text">Royal EZONE Series – The Lightest Ever*</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">January 17, 2023</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- konten4 selesai -->
+      </div>
+    </div>
+<!-- konten selesai -->
+
+    <!--footer mulai-->
+    <div class="container-fluid">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" style="background-color: #363636; color: white;">
+          <div class="col mb-3">
+          </div>
+      
+          <div class="col mb-3">
+            <h5 style="color: white;">Menu</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-white">Home</a></li>
+                <li class="nav-item mb-2"><a href="../produk.html" class="nav-link p-0 text-white">Produk</a></li>
+                <li class="nav-item mb-2"><a href="../news.html" class="nav-link p-0 text-white">News</a></li>
+                <li class="nav-item mb-2"><a href="../about.html" class="nav-link p-0 text-white">About</a></li>
+            </ul>
+  
+          </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary text-white">© 2024 SMart Company, Inc</span>
+        </div>
+        
+      
+          <div class="col mb-3">
+            <h5 style="text-align: center;">Social Media</h5>
+            <ul class="nav flex-column" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <li class="nav-item" style="margin-top: 5px;">
+                    <a class="social-icon" href="https://web.facebook.com/profile.php?id=100089342480000/">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="margin-top: 10px;">
+                    <a class="social-icon" href="https://youtu.be/Qb1BdLlx8aw?si=gcA_M_CDjCC-3zPo">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="margin-top: 10px;">
+                    <a class="social-icon" href="https://www.instagram.com/yonexoriginal.indonesia/">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        </footer>
+      </div>
+    <!--footer selesai-->
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay: true, // Auto-play slides
+                autoplaySpeed: 3000, // Auto-play interval in milliseconds
+                arrows: false, // Hide navigation arrows
+                infinite: true, // Enable infinite looping
+                slidesToShow: 1, // Number of slides to show at a time
+                slidesToScroll: 1 // Number of slides to scroll at a time
+            });
+        });
+    </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+</html>
