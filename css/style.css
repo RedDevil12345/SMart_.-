@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+:root{
+    --c-brand:green;
+    --c-brand-rgb: 248,54,145;
+    --c-dark:#0505e0;
+    --c-body:#636383;
+    --f-main:"Bai Jamjuree", sans-serif;
+    --transition: all .6s cubic-bezier(.165, .84, .44, 1);
+    --shadow: 0px 15px 40px rgba(0,0,0,0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--f-main); 
+}
+
+/* Header Mulai */
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: var(--transition);
+    background-color: rgba(68, 68, 68, 0.5); 
+}
+
+
+
+.navbar.scrolled {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(252, 6, 6);
+    box-shadow: var(--shadow);
+}
+
+.navbar-toggler {
+    border-radius: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: black;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.social-icon {
+    width: 36px;
+    height: 36px;
+    background-color: var(--c-brand);
+    color: white;
+    border: 2px solid var(--c-brand);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+}
+
+.social-icon:hover {
+    background-color: transparent;
+}
+
+
+/* Header Selesai */
+
+/* carrosel mulai */
+.myCarousel {
+    margin-bottom: 50px; /* Menambahkan margin di bagian bawah carousel */
+}
+
+.about {
+    padding-top: 50px; /* Menambahkan padding di bagian atas konten 1 */
+}
+/* carrosel selesai */
+
+/* Konten Mulai */
+.featurette {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.featurette .col-md-7,
+.featurette .col-md-5 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.featurette .col-md-7,
+.featurette .col-md-5 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.featurette h2 {
+    margin-bottom: 10px;
+}
+
+.featurette .featurette-image {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.featurette {
+    margin-bottom: 50px;
+}
+
+.featurette-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+/* Konten Selesai */
+
+/* Konten 4 */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    font-weight: bold;
+}
+
+.img-categori:hover {
+    transform: scale(1.2);
+}
+
+.img-categori {
+    width: 80px;
+}
+
+.row-container {
+    background-color: #fff;
+    margin: auto;
+    justify-content: center;
+}
+
+.card:hover {
+    border: 2px solid #2d2d2d;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.cards-wrapper {
+    display: flex;
+}
+
+#carouselExampleControls {
+    margin-top: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 0 15px;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+/* Konten 4 Selesai */
+
+/* konten1 about */
+.service-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--c-brand);
+    color: white;
+    font-size: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.custom-link span {
+    font-weight: 700;
+}
+
+.custom-link i {
+    width: 24px;
+    height: 24px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-brand);
+    border-radius: 100px;
+    color:white;
+    margin-left: 6px;
+    transition: var(--transition);
+}
+
+.custom-link:hover i {
+    transform: translateX(6px);
+}
+/* konten1 about */
+
+.row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top {
+    background-color: #2d2d2d;
+    height: 100vh;
+}
+
+.text-body-secondary {
+    color: #fff;
+}
+
+
